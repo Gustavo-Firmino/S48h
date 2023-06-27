@@ -7,3 +7,6 @@ The soul of the project is the integration of a Raspberry PI to a web interface,
 At first, to use the basics: HTML, CSS, JS, PHP, MYSQL...
 Later, I intend to expand to frameworks that enable robustness in relation to data management. 
 Who knows  mobile integration??
+
+
+Devs: Andia | guss
