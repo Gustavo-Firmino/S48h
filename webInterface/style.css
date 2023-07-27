@@ -3,6 +3,15 @@ body{
     background-color: #ffffff;
     font-size: 20px;
 }
+h1{
+  color: #ddd;
+}
+form{
+  background-color: gray;
+  padding: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 /*NAVBAR-inspirated: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
 .topnav {
     background-color: #333333;
@@ -28,7 +37,7 @@ body{
   /* Add an active class to highlight the current page */
   .topnav a.active {
     background-color: #72dec2;
-    color: white;
+    color: black;
   }
   
   /* Hide the link that should open and close the topnav on small screens */
@@ -68,4 +77,29 @@ body{
     margin-top: 0%;
     padding: 10px;
 }
+.lab{
+  font-size: 30px;
+}
+.inp{
+  background-color: #c6c2c2;
+  border: none;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
 /*id*/
+#sub{
+  background-color: #4f4955;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #b2b5b4;
+  font-size: x-large;
+}
+#sub:hover{
+  background-color: #333333;
+  color: #fffcfc;
+}
