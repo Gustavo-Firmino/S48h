@@ -103,3 +103,12 @@ form{
   background-color: #333333;
   color: #fffcfc;
 }
+#showPwd{
+  background-color: #2d2b2b;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5%;
+  color: #b2b5b4;
+  font-size: medium;
+}

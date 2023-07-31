@@ -7,3 +7,13 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+  
+  function show(){
+    let btnPwd = document.getElementById('pwd');
+    let btnShow = document.getElementById('showPwd');
+    if(btnPwd.type === "password"){
+      btnPwd.type = "text";
+      btnShow.textContent = "Esconder senha";
+    }else{btnPwd.type = "password";btnShow.textContent = "Motrar senha";}
+}
