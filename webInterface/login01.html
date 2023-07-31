@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <script src="scriptTopNav.js"></script>
+        <script src="scriptLogin.js"></script>
         <title>Login</title>
     </head>
     <body>
@@ -16,7 +16,7 @@
                 <a href="#news">News</a>
                 <a href="#contact">Contact</a>
                 <a href="#about">About</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <a href="javascript:void(0);" class="icon" onclick="topNav()">
                     <i class="fa fa-bars"></i>
                 </a>
             </div>
@@ -24,13 +24,10 @@
             <h1>Login</h1>
             <form action="login02.php">
                 <label for="email" class="lab">Email</label><br>
-                <input type="text" name="email" class="inp" placeholder="Insira seu email">
-
+                <input type="email" name="email" class="inp" placeholder="Insira seu email">
                 <label for="nome"  class="lab">Senha</label><br>
                 <input type="password" name="Senha" class="inp" id="pwd" placeholder="Insira sua senha">
-                
                 <button id="showPwd" type="button" onclick="show()">Mostrar senha</button><br>
-
                 <input type="submit" value="ENTRAR" id="sub">
             </form>
         </div>
